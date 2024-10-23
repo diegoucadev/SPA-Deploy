@@ -49,7 +49,7 @@ const Form = () => {
     if (validate()) {
       try {
         //Local server address for posting users
-        await axios.post("http://localhost:3000/api/users", formData, {
+        await axios.post("http://159.65.185.107:3000/api/users", formData, {
           headers: {
             "Content-Type": "application/json",
           },

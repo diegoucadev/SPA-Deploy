@@ -12,7 +12,7 @@ const UsersPage = () => {
     const fetchUsers = async () => {
       try {
         //Local server address for users
-        const response = await axios.get("http://localhost:3000/api/users");
+        const response = await axios.get("http://159.65.185.107:3000/api/users");
         setUsers(response.data);
       } catch (err) {
         setError("Error al cargar usuarios...");
