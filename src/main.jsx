@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from './pages/Home.jsx'
-import Users from './pages/Users.jsx'
+import Home from './pages/Home'
+import Users from './pages/Users'
 import './index.css'
 import NotFound from './pages/NotFound.jsx'
 
